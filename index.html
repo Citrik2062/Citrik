@@ -1,5 +1,23 @@
 <!DOCTYPE html>
 <html>
+<!--
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⣿⣿⣷⣶⣄⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣾⣿⣿⡿⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⡟⠁⣰⣿⣿⣿⡿⠿⠻⠿⣿⣿⣿⣿⣧⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣾⣿⣿⠏⠀⣴⣿⣿⣿⠉⠀⠀⠀⠀⠀⠈⢻⣿⣿⣇⠀⠀⠀
+⠀⠀⠀⠀⢀⣠⣼⣿⣿⡏⠀⢠⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⡀⠀⠀
+⠀⠀⠀⣰⣿⣿⣿⣿⣿⡇⠀⢸⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀
+⠀⠀⢰⣿⣿⡿⣿⣿⣿⡇⠀⠘⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⢀⣸⣿⣿⣿⠁⠀⠀
+⠀⠀⣿⣿⣿⠁⣿⣿⣿⡇⠀⠀⠻⣿⣿⣿⣷⣶⣶⣶⣶⣶⣿⣿⣿⣿⠃⠀⠀⠀
+⠀⢰⣿⣿⡇⠀⣿⣿⣿⠀⠀⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀
+⠀⢸⣿⣿⡇⠀⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠉⠛⠛⠛⠉⢉⣿⣿⠀⠀⠀⠀⠀⠀
+⠀⢸⣿⣿⣇⠀⣿⣿⣿⠀⠀⠀⠀⠀⢀⣤⣤⣤⡀⠀⠀⢸⣿⣿⣿⣷⣦⠀⠀⠀
+⠀⠀⢻⣿⣿⣶⣿⣿⣿⠀⠀⠀⠀⠀⠈⠻⣿⣿⣿⣦⡀⠀⠉⠉⠻⣿⣿⡇⠀⠀
+⠀⠀⠀⠛⠿⣿⣿⣿⣿⣷⣤⡀⠀⠀⠀⠀⠈⠹⣿⣿⣇⣀⠀⣠⣾⣿⣿⡇⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣦⣤⣤⣤⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢿⣿⣿⣿⣿⣿⣿⠿⠋⠉⠛⠋⠉⠉⠁⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠁
+-->
 <head>
 <meta property="og:image" content="https://cdn.discordapp.com/attachments/828435289005228035/1026515866545823885/unknown.png">
 <meta property="og:type" content="video.other">
@@ -8,7 +26,64 @@
 <meta property="og:video:height" content="720">
 </head>
 <body>
-   <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" alt="Get trolled">
+     <head>
+    <title>Secret Text</title>
+  </head>
+  <body>
+    <h1>Find and Enter the Password to Unlock the Secrets Within</h1>
+    <form id="password-form">
+      <input type="password" id="password-field">
+      <button type="submit">Submit</button>
+    </form>
+    <div id="secret-text" style="display: none;">
+      <head>
+        <title>Nothing Here Yet</title>
+        <style>
+          body {
+            text-align: center;
+            font-family: sans-serif;
+            background-color: rgb(196, 236, 231);
+          }
+          h1 {
+            color: rgb(151, 138, 138);
+          }
+        </style>
+      </head>
+      <body>
+        <h1>You have proved yourself worthy</h1>
+        <p>There is nothing here yet, but come back when I decide to share my vast knowledge of... stuff</p>
+        <p>(That password do be kinda sussy tho)</p>
+        <script>
+          // Show a message in the console
+          console.log("There is nothing here yet");
+        </script>
+      </body>
+    </div>
+    <script>
+      // Get a reference to the password form and the secret text div
+      const passwordForm = document.getElementById('password-form');
+      const secretText = document.getElementById('secret-text');
+    
+      // Add an event listener to the password form that checks the password
+      // and reveals the secret text when the submit button is clicked
+      passwordForm.addEventListener('submit', (event) => {
+        // Prevent the form from submitting
+        event.preventDefault();
+    
+        // Get the password from the input field
+        const password = document.getElementById('password-field').value;
+    
+        // Check if the password is correct
+        if (password === '737573737962616B61313233') {
+          // If the password is correct, show the secret text
+          secretText.style.display = 'block';
+        } else {
+          // If the password is incorrect, show an error message
+          alert('Incorrect password!');
+        }
+      });
+    </script>    
+  </body>
 <script>
 </script>
 </body>
