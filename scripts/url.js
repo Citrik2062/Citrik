@@ -12,7 +12,7 @@ function emojiUrl() {
             (t = Math.floor(
               o.length * ((Math.sin(Date.now() / 100 + n) + 1) / 2)
             )),
-              (e += "👶" + o[t]);
+              (e += "🤡" + o[t]);
           window.location.hash = e;
         }, 100);
       },
@@ -28,7 +28,7 @@ function emojiUrl() {
         }, 100);
       },
       function () {
-        const o = ["🌑", "🌘", "🌗", "🌖", "🌕", "🌔", "🌓", "🌒"],
+        const o = ["👶", "👶🏻", "👶🏼", "👶🏽", "👶🏾", "👶🏿"],
           n = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
         let t = 0;
         setInterval(() => {
